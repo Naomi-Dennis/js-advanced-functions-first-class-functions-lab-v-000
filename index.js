@@ -9,7 +9,7 @@ const returnFirstTwoDrivers = (list) => {
 }
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
-function createFareMultiplier(){
+function createFareMultiplier(multi){
    return (multi) => { return value * multi}
 }
 
