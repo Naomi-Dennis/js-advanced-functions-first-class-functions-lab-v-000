@@ -11,4 +11,9 @@ function createFareMultiplier(){
 
 }
 
-function fareDoubler(){}
+function fareDoubler(){
+  
+}
+function fareTripler(){
+  
+}
