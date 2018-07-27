@@ -13,8 +13,8 @@ function createFareMultiplier(value){
    return (value) => { return value ** 2}
 }
 
-function fareDoubler(){
-
+function fareDoubler(fare){
+  return (fare) => { return fare * 2 }
 }
 function fareTripler(){
 
