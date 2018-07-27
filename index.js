@@ -1,9 +1,9 @@
 // Code your solution in this file!
-function returnFirstTwoDrivers(list){
+const returnFirstTwoDrivers = (list) =>{
   return list.splice(0, 2)
 }
 
-const returnLastTwoDrivers = () => {
+ returnLastTwoDrivers(){
 
 }
 
