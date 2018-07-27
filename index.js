@@ -1,6 +1,6 @@
 // Code your solution in this file!
-function returnFirstTwoDrivers(){
-
+function returnFirstTwoDrivers(list){
+  return list.splice(0, 2)
 }
 
 function returnLastTwoDrivers(){
