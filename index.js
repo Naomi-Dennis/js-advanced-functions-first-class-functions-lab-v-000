@@ -1,8 +1,6 @@
 // Code your solution in this file!
 const returnFirstTwoDrivers = (list) => {
-  let eles =  Object.assign([], list.splice(0, 2))
-  console.log( eles )
-  return eles
+   return Object.assign([], list.splice(0, 2))
 }
 
  const returnLastTwoDrivers = () =>{
