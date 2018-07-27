@@ -13,11 +13,11 @@ function createFareMultiplier(value){
    return (multi) => { return value * multi}
 }
 
-function fareDoubler(fare){
-  return createFareMultiplier(2)()
+function fareDoubler(){
+  return createFareMultiplier(2)
 }
 function fareTripler(){
-     return createFareMultiplier(3)()
+     return createFareMultiplier(3)
 }
 function selectDifferentDrivers(arrayOfDrivers, foo){
     return foo(arrayOfDrivers)
