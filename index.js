@@ -3,7 +3,7 @@ function returnFirstTwoDrivers(list){
   return list.splice(0, 2)
 }
 
-function returnLastTwoDrivers(){
+const returnLastTwoDrivers = () => {
 
 }
 
