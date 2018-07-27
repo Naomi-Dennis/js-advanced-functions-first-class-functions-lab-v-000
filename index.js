@@ -3,7 +3,7 @@ const returnFirstTwoDrivers = (list) => {
   return list.splice(0, 2)
 }
 
- returnLastTwoDrivers(){
+ const returnLastTwoDrivers = () =>{
 
 }
 
