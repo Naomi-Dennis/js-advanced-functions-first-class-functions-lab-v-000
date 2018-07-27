@@ -14,7 +14,7 @@ function createFareMultiplier(value){
 }
 
 function fareDoubler(fare){
-  return createFareMultiplier(2)
+  return createFareMultiplier(2)(fare)
 }
 function fareTripler(){
      return createFareMultiplier(3)
