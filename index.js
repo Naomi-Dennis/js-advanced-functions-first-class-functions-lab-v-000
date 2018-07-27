@@ -4,5 +4,9 @@ function returnFirstTwoDrivers(){
 }
 
 function returnLastTwoDrivers(){
+
+}
+
+function createFareMultiplier(){
   
 }
