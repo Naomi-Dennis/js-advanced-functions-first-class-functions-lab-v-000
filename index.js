@@ -8,5 +8,7 @@ function returnLastTwoDrivers(){
 }
 
 function createFareMultiplier(){
-  
+
 }
+
+function fareDoubler(){}
