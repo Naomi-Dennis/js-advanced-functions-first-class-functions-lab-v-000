@@ -14,10 +14,10 @@ function createFareMultiplier(value){
 }
 
 function fareDoubler(fare){
-  return createFareMultiplier(2)
+  return createFareMultiplier(2)()
 }
 function fareTripler(){
-     return createFareMultiplier(3)
+     return createFareMultiplier(3)()
 }
 function selectDifferentDrivers(arrayOfDrivers, foo){
     return foo(arrayOfDrivers)
