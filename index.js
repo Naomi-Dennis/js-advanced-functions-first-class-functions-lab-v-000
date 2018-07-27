@@ -1,6 +1,7 @@
 // Code your solution in this file!
 const returnFirstTwoDrivers = (list) => {
-  return list.splice(0, 2)
+  let eles =  list.splice(0, 2)
+  return eles
 }
 
  const returnLastTwoDrivers = () =>{
