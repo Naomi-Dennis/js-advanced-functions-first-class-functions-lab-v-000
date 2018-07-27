@@ -9,8 +9,8 @@ const returnFirstTwoDrivers = (list) => {
 }
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
-function createFareMultiplier(){
-
+function createFareMultiplier(value){
+   (value) => { value * value}
 }
 
 function fareDoubler(){
