@@ -1,5 +1,5 @@
 // Code your solution in this file!
-const returnFirstTwoDrivers = (list) =>{
+const returnFirstTwoDrivers = (list) => {
   return list.splice(0, 2)
 }
 
