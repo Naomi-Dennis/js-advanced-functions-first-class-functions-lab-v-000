@@ -12,8 +12,11 @@ function createFareMultiplier(){
 }
 
 function fareDoubler(){
-  
+
 }
 function fareTripler(){
-  
+
+}
+function selectDifferentDrivers(arrayOfDrivers, foo){
+
 }
