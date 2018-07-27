@@ -8,6 +8,7 @@ const returnFirstTwoDrivers = (list) => {
    return list.slice(maxLength - 2, maxLength)
 }
 
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 function createFareMultiplier(){
 
 }
